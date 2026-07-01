@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 class Plant:
-    def __init__ (self, name: str, height: int, age: int) -> None:
+    def __init__ (self, name: str, height: int, days: int) -> None:
         self.name = name
         self.height = height
-        self.age = age
+        self.days = days
     def show(self) -> None:
-        print(f"{self.name}: {self.height}cm, {self.age} days old")
+        print(f"{self.name}: {self.height}cm, {self.days} days old")
 
 if __name__== "__main__":
     print("=== Garden Plant Registry ===")
