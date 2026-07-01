@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 if __name__ == "__main__":
-    print("Welcome to My Garden")
+    print("=== Welcome to My Garden ===")
     name = "Rose" 
     height = "25cm" 
     age = "30 days" 
@@ -9,4 +9,4 @@ if __name__ == "__main__":
     print("Height:", height)
     print("Age:", age)
 
-    print("End of Program")
+    print("=== End of Program ===")
