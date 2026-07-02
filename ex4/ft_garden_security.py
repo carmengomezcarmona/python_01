@@ -35,16 +35,14 @@ if __name__ == "__main__":
     print("Plant created: ", end="")
     flower_a = Plant("Rose", 15.0, 10)
     flower_a.show()
-    flower_a.get_height()
-
+    print()
+    flower_a.set_height(25.0)
     print("Height updated: 25cm")
-    flower_a.get_age()
+    flower_a.set_age(30)
     print("Age updated: 30 days")
-
+    print()
     flower_a.set_height(-10.5)
     flower_a.set_age(-5)
-    
-    flower_a.set_height(25)
-    flower_a.set_age(30)
+    print()
     print("Current state ", end="")
     flower_a.show()
