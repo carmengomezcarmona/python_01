@@ -17,14 +17,15 @@ class Plant:
 
 
 if __name__ == "__main__":
-    print("=== Garden Plant Growth ===")
-    flower1 = Plant("Rose", 25.0, 30)
-    flower1.show()
-    initial_height = flower1.height
-    for day in range(1, 8):
-        print(f"=== Day {day} ===")
-        flower1.age()
-        flower1.grow()
-        flower1.show()
-    print("=== Growth this week:"
-          f"{round(flower1.height - initial_height, 1)}cm ===")
+    print("=== Plant Factory Output ===")
+    my_garden = [
+        Plant("Rose", 25.0, 30),
+        Plant("Oak", 200.0, 365),
+        Plant("Cactus", 5.0, 90),
+        Plant("Sunflower", 80.0, 45),
+        Plant("Fern", 15.0, 120),
+    ]
+
+    for plant in my_garden:
+        print("Created: ", end="")
+        plant.show()
